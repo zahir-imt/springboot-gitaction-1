@@ -12,6 +12,7 @@ public class SpringbootGithubAction1Application {
 	@GetMapping("/welcome")
 	public String welcome(){
 		return "Welcome";
+
 	}
 
 	public static void main(String[] args) {
