@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM eclipse-temurin:17-jre-alpine
 EXPOSE 8080
 ADD target/springboot-github-action-1.jar springboot-github-action-1.jar
 ENTRYPOINT ["java","-jar","/springboot-github-action-1.jar"]
